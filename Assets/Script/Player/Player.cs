@@ -13,11 +13,8 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-        // if (Input.GetMouseButton(0)) // 왼쪽 마우스 버튼을 누를 때
-        // {
-            Vector3 targetPosition = GetMouseWorldPosition();
-            transform.position = targetPosition;
-        // }
+        Vector3 targetPosition = GetMouseWorldPosition();
+        transform.position = targetPosition;
     }
 
     private Vector3 GetMouseWorldPosition()
