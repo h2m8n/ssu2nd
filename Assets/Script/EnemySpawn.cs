@@ -8,10 +8,10 @@ public class EnemySpawn : MonoBehaviour
     private GameObject mEnemy;
     
     [SerializeField]
-    private float mFirstSpawnZ = 80.0f;
+    private float mFirstSpawnZ = 80.0f; //80.0f였는데 뭐가 다르지
 
     [SerializeField]
-    private float mSpawnIntervalZ = 3.0f;
+    private float mSpawnIntervalZ = 3.0f; //3이었음
 
     [SerializeField]
     private Transform[] mSpawnPoints;

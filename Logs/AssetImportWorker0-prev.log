@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.22f1 (b6c551784ba3) revision 11978065'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ko' Physical Memory: 16309 MB
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'ko' Physical Memory: 16182 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.22f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/123/Documents/GitHub/ssu2nd
+C:/Users/alfnd/ssu2nd
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-3931
-Successfully changed project path to: C:/Users/123/Documents/GitHub/ssu2nd
-C:/Users/123/Documents/GitHub/ssu2nd
+50066
+Successfully changed project path to: C:/Users/alfnd/ssu2nd
+C:/Users/alfnd/ssu2nd
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,112 +47,109 @@ C:/Users/123/Documents/GitHub/ssu2nd
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [3764] Host "[IP] 192.168.0.2 [Port] 0 [Flags] 2 [Guid] 3516208622 [EditorId] 3516208622 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VCC6D1M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [54108] Host "[IP] 192.168.45.139 [Port] 0 [Flags] 2 [Guid] 3313386386 [EditorId] 3313386386 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-HC0H1VFI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [3764] Host "[IP] 192.168.0.2 [Port] 0 [Flags] 2 [Guid] 3516208622 [EditorId] 3516208622 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VCC6D1M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [54108] Host "[IP] 192.168.45.139 [Port] 0 [Flags] 2 [Guid] 3313386386 [EditorId] 3313386386 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-HC0H1VFI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 126.66 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 128.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.22f1 (b6c551784ba3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/123/Documents/GitHub/ssu2nd/Assets
+[Subsystems] Discovering subsystems at path C:/Users/alfnd/ssu2nd/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2070 SUPER (ID=0x1e84)
+    Renderer: NVIDIA GeForce GTX 1650 with Max-Q Design (ID=0x1f91)
     Vendor:   NVIDIA
-    VRAM:     8011 MB
-    Driver:   31.0.15.1694
+    VRAM:     3964 MB
+    Driver:   27.21.14.6259
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56508
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.036652 seconds.
+Registered in 0.022701 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 101.39 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 129.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.149 seconds
+- Completed reload, in  1.229 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1149ms)
-		BeginReloadAssembly (227ms)
+	ReloadAssembly (1229ms)
+		BeginReloadAssembly (233ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (715ms)
-			LoadAssemblies (218ms)
+		EndReloadAssembly (801ms)
+			LoadAssemblies (221ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (171ms)
+			SetupTypeCache (177ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (399ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (451ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
+				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (102ms)
+				RefreshPlugins (130ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (201ms)
-				ProcessInitializeOnLoadMethodAttributes (72ms)
+				ProcessInitializeOnLoadAttributes (211ms)
+				ProcessInitializeOnLoadMethodAttributes (92ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.016696 seconds.
+Registered in 0.014422 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\123\Documents\GitHub\ssu2nd\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\123\Documents\GitHub\ssu2nd\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\alfnd\ssu2nd\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\alfnd\ssu2nd\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.323 seconds
+- Completed reload, in  1.721 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1324ms)
-		BeginReloadAssembly (189ms)
+	ReloadAssembly (1722ms)
+		BeginReloadAssembly (260ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (975ms)
-			LoadAssemblies (172ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1257ms)
+			LoadAssemblies (194ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (309ms)
+			SetupTypeCache (420ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (423ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (542ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (114ms)
-				ProcessInitializeOnLoadAttributes (244ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (28ms)
+				BeforeProcessingInitializeOnLoad (142ms)
+				ProcessInitializeOnLoadAttributes (323ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (40ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
+			AwakeInstancesAfterBackupRestoration (47ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3063 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (113.5 KB). Loaded Objects now: 3531.
-Memory consumption went from 110.6 MB to 110.5 MB.
-Total: 3.220200 ms (FindLiveObjects: 0.285900 ms CreateObjectMapping: 0.076700 ms MarkObjects: 2.736800 ms  DeleteObjects: 0.119800 ms)
+Unloading 3065 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (113.8 KB). Loaded Objects now: 3537.
+Memory consumption went from 111.5 MB to 111.4 MB.
+Total: 3.903500 ms (FindLiveObjects: 0.366000 ms CreateObjectMapping: 0.283400 ms MarkObjects: 3.077600 ms  DeleteObjects: 0.174800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,655 +163,133 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 20928.934716 seconds.
+  Time since last request: 922450.909668 seconds.
+  path: Assets/Scenes/MenuScene.unity
+  artifactKey: Guid(faf176748c3d5d24b86cb5ec41bc453c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuScene.unity using Guid(faf176748c3d5d24b86cb5ec41bc453c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a064fff17abf4517c658a4b97d422493') in 0.017610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.649191 seconds.
   path: Assets/Scenes/SampleScene.unity
   artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f14f9031340fa51a55d2b16fa6f4307') in 0.014411 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 25.634203 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/Materials/DarkStorm4K.mat
-  artifactKey: Guid(1a7f425b74f0045468c2f8e2d0e44b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/Materials/DarkStorm4K.mat using Guid(1a7f425b74f0045468c2f8e2d0e44b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe0b70e3852d081a3a76a6b5da6213fa') in 0.399584 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.008578 seconds.
-  path: Assets/SkySeries Freebie/ExampleScenes/SundownFreebieDemo.unity
-  artifactKey: Guid(fe6b9a1767cfb80428cc8d62702d38e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/ExampleScenes/SundownFreebieDemo.unity using Guid(fe6b9a1767cfb80428cc8d62702d38e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52761f6c24246c753edf1cc6312a9a04') in 0.009081 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.010190 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
-  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b707fb793fd60a56581099cf81a197e') in 0.023353 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.143463 seconds.
-  path: Assets/SkySeries Freebie/ExampleScenes/CosmicCoolCloud.unity
-  artifactKey: Guid(919d3dbc008ab724da78b594b20b503d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/ExampleScenes/CosmicCoolCloud.unity using Guid(919d3dbc008ab724da78b594b20b503d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da866daafe4fb7e1f3638a51d3d82303') in 0.010726 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.040702 seconds.
-  path: Assets/TextMesh Pro/Shaders
-  artifactKey: Guid(e9f693669af91aa45ad615fc681ed29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders using Guid(e9f693669af91aa45ad615fc681ed29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16852098a277b7ddedd49287b21bfbc7') in 0.009503 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.016764 seconds.
-  path: Assets/SkySeries Freebie/ExampleScenes/SceneObjects/8_10.mat
-  artifactKey: Guid(964f6a34e2240bf45940918b112ce7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/ExampleScenes/SceneObjects/8_10.mat using Guid(964f6a34e2240bf45940918b112ce7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671081b984d0cd1ef7af2af10fe23497') in 0.032749 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.006052 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Silver
-  artifactKey: Guid(4692567bb400b7b43bfd7e4ec6129550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Silver using Guid(4692567bb400b7b43bfd7e4ec6129550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6bae4e681e300b95d7944f5905e19ee') in 0.008665 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.017680 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/README.txt
-  artifactKey: Guid(866393511db0e9740b36956843eeaa8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/README.txt using Guid(866393511db0e9740b36956843eeaa8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e0777627a47d328b4d0e4ff5b0a908') in 0.022621 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.007866 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Black/M1911 Magazine_Black_Full.prefab
-  artifactKey: Guid(3891d67bd4812e34db02888d6b7ae428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Black/M1911 Magazine_Black_Full.prefab using Guid(3891d67bd4812e34db02888d6b7ae428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48fa5b10b1c161789afc3b4adb28618') in 0.065299 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.028865 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/Effects
-  artifactKey: Guid(631af6a543f4bdd41bdb3b22798e6956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/Effects using Guid(631af6a543f4bdd41bdb3b22798e6956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '438bb2dfed93de7787aa71d8a6cd5f28') in 0.009008 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.046925 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Base Prefabs/Bullet_Head.prefab
-  artifactKey: Guid(9e0ef2cf9cfc11c46bbe7f28b272f6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Base Prefabs/Bullet_Head.prefab using Guid(9e0ef2cf9cfc11c46bbe7f28b272f6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e51089de963176aca3abfb75e9097f97') in 0.012089 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.018748 seconds.
-  path: Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
-  artifactKey: Guid(fade42e8bc714b018fac513c043d323b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt using Guid(fade42e8bc714b018fac513c043d323b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f67ab3dc26da4e8ae25e3f4e491d00') in 0.010757 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.062689 seconds.
-  path: Assets/TextMesh Pro/Fonts
-  artifactKey: Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts using Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c35bbd85dc86dd2ef332d439fd9c360') in 0.010721 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.005861 seconds.
-  path: Assets/TextMesh Pro
-  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5648c5ef36b7beab651a001a8d08867') in 0.010851 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.019265 seconds.
-  path: Assets/SkySeries Freebie/ExampleScenes/SceneObjects/4_10.mat
-  artifactKey: Guid(db3bceb128d32144ca6fd4550ac256bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/ExampleScenes/SceneObjects/4_10.mat using Guid(db3bceb128d32144ca6fd4550ac256bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f63c68f494155967e1cb8120342bb88b') in 0.021341 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.007180 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Base Prefabs
-  artifactKey: Guid(85ffdbf9c56062e4e8c1a4740fb5adee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Base Prefabs using Guid(85ffdbf9c56062e4e8c1a4740fb5adee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf72a3b1076257dd3e7a47e9578edf7e') in 0.009173 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.006913 seconds.
-  path: Assets/SkySeries Freebie/ExampleScenes/SceneObjects/DemoObjects.prefab
-  artifactKey: Guid(88c20de6c1dc0f04abeaffaac0a9a6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/ExampleScenes/SceneObjects/DemoObjects.prefab using Guid(88c20de6c1dc0f04abeaffaac0a9a6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a8d740cddb2fef71d3ff08e48d0417') in 0.024244 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.018127 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/Materials/AmbienceExposure4k.mat
-  artifactKey: Guid(7c4a8daccf317c04bb4f7c4c376a8426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/Materials/AmbienceExposure4k.mat using Guid(7c4a8daccf317c04bb4f7c4c376a8426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35a116e655579bb3baeeaaea4e0ab31') in 0.119366 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.016161 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
-  artifactKey: Guid(48bb5f55d8670e349b6e614913f9d910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader using Guid(48bb5f55d8670e349b6e614913f9d910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee33c8204320077bc2f71ff5adf4078f') in 0.011578 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.003456 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun
-  artifactKey: Guid(66aeb642024979747b6f42b77bca7e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun using Guid(66aeb642024979747b6f42b77bca7e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd08e22c1752421dbd06f0f9120d83c4a') in 0.008065 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.058184 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
-  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20ea2dcde55b8beccd13c84cee3fbf5a') in 0.068775 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.006164 seconds.
-  path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
-  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72200549b97ff12ff44a36c3fabf96c') in 0.010148 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.006286 seconds.
-  path: Assets/SkySeries Freebie/ExampleScenes/CloudyMorning.unity
-  artifactKey: Guid(3ed7059aff13dc14fbe949f7f63b522f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/ExampleScenes/CloudyMorning.unity using Guid(3ed7059aff13dc14fbe949f7f63b522f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ed1eaf5301c431b4a5dcc1991ebb42') in 0.008545 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.029882 seconds.
-  path: Assets/SkySeries Freebie/ExampleScenes/AmbienceExposure.unity
-  artifactKey: Guid(8d47f25a25106dd4fb4f92261f369863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/ExampleScenes/AmbienceExposure.unity using Guid(8d47f25a25106dd4fb4f92261f369863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e2e809016f3c7f5e79d237e89a21b0') in 0.009727 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.016300 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/Materials/CoriolisNight4k.mat
-  artifactKey: Guid(1fcf0231b035d84448824c8117c14d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/Materials/CoriolisNight4k.mat using Guid(1fcf0231b035d84448824c8117c14d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a2960b3f5a0b188fbb680fe1cfeab3') in 0.119277 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.005575 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/Materials/UnderTheSea4k.mat
-  artifactKey: Guid(a19ce2d07215e3c4aa33283825f5c020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/Materials/UnderTheSea4k.mat using Guid(a19ce2d07215e3c4aa33283825f5c020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c52dac4be4a10f00f0bbb49f52f162b7') in 0.133733 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.007059 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Black/M1911 Magazine_Black.prefab
-  artifactKey: Guid(1630d9b67160caa44aad0385aa9bf476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Black/M1911 Magazine_Black.prefab using Guid(1630d9b67160caa44aad0385aa9bf476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a3666db026773da34727628783ecac3') in 0.021602 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.021476 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/Animations/M1911@Fire.anim
-  artifactKey: Guid(d34b4dd27ff9e5942b1871319d0f0db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/Animations/M1911@Fire.anim using Guid(d34b4dd27ff9e5942b1871319d0f0db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1046893574c74e311169ffbbecdd5063') in 0.012469 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.003717 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/Textures
-  artifactKey: Guid(280f564b2cdc4e7428d4b131f3469877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/Textures using Guid(280f564b2cdc4e7428d4b131f3469877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10f58245f9b7c813ddee97bcb2e166f') in 0.007244 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.033324 seconds.
-  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
-  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3950451084668360d05945240589cf11') in 0.011683 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.006063 seconds.
-  path: Assets/SkySeries Freebie/ExampleScenes/Daylightfreebiedemo.unity
-  artifactKey: Guid(aa96a8c1d168fcb4ea92cd8558fe7a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/ExampleScenes/Daylightfreebiedemo.unity using Guid(aa96a8c1d168fcb4ea92cd8558fe7a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a987a169b67b7939d90c15007164c268') in 0.007612 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.048285 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
-  artifactKey: Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMP_Sprite.shader using Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e7c74a4b90aced47c55d0730d60d74e') in 0.008004 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.057070 seconds.
-  path: Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
-  artifactKey: Guid(381dcb09d5029d14897e55f98031fca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt using Guid(381dcb09d5029d14897e55f98031fca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f71b2d21205dc6ff6abedf9e764a644') in 0.008654 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.032257 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
-  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29161a4a12600bf2fa69f04133c90404') in 0.086303 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.014128 seconds.
-  path: Assets/TextMesh Pro/Resources/Sprite Assets
-  artifactKey: Guid(512a49d95c0c4332bdd98131869c23c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Sprite Assets using Guid(512a49d95c0c4332bdd98131869c23c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dcb9dc3060b39f33c350934f5d461fd') in 0.007410 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.005728 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/Asset Collection.unity
-  artifactKey: Guid(3e2d436cf8cd5b54a878d325c0de145b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/Asset Collection.unity using Guid(3e2d436cf8cd5b54a878d325c0de145b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad7b38f94156fa9ee680758eb8a3738') in 0.007847 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.005941 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Black/M1911 Handgun_Black (Shooting).prefab
-  artifactKey: Guid(7e7f2840eb6a6294fb9d04582dbf8079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Black/M1911 Handgun_Black (Shooting).prefab using Guid(7e7f2840eb6a6294fb9d04582dbf8079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c65c4950bce41446f6b73099371c3a') in 0.087039 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.051242 seconds.
-  path: Assets/SkySeries Freebie/ExampleScenes/UnEarthlyRed.unity
-  artifactKey: Guid(acc44db00cf3703479df04ea90bad261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/ExampleScenes/UnEarthlyRed.unity using Guid(acc44db00cf3703479df04ea90bad261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7551e4d2671e01c0d71c5a1dffef3e') in 0.007613 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.016068 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
-  artifactKey: Guid(dd89cf5b9246416f84610a006f916af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader using Guid(dd89cf5b9246416f84610a006f916af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '872bee777b7c2d6a31c18934a9fe331b') in 0.008365 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.006381 seconds.
-  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
-  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9664ed25370c69db266d841bafb14c6') in 0.019997 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.031390 seconds.
-  path: Assets/SkySeries Freebie/ExampleScenes/MidNightFreebieDemo.unity
-  artifactKey: Guid(80b2b3058ff1d3944b4d96d6824deb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/ExampleScenes/MidNightFreebieDemo.unity using Guid(80b2b3058ff1d3944b4d96d6824deb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc947e4eef34e9de6def39a6b3dacc9') in 0.007629 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.024524 seconds.
-  path: Assets/SkySeries Freebie/ExampleScenes/SunlessFreebieDemo.unity
-  artifactKey: Guid(73547a7486fb43f45b68fed50e680e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/ExampleScenes/SunlessFreebieDemo.unity using Guid(73547a7486fb43f45b68fed50e680e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a8aeee9679d6df991b10c5972249e3') in 0.008382 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.006160 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/Materials/CasualDay4K.mat
-  artifactKey: Guid(e593ab1f3001b6242bbe098772a2931e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/Materials/CasualDay4K.mat using Guid(e593ab1f3001b6242bbe098772a2931e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b9b049d2e2a62f8c293a4a70e1da33e') in 0.113464 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.079851 seconds.
-  path: Assets/SkySeries Freebie/ExampleScenes/CasualDay.unity
-  artifactKey: Guid(745822b12dae28c44b79ddd800e253e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/ExampleScenes/CasualDay.unity using Guid(745822b12dae28c44b79ddd800e253e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9537f625b08153baa20d17281277c83') in 0.007919 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.006078 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Silver/M1911 Handgun_Silver (Shooting).prefab
-  artifactKey: Guid(37e98970f8baf7647b735d9036006f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Silver/M1911 Handgun_Silver (Shooting).prefab using Guid(37e98970f8baf7647b735d9036006f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b250f36c4e7befc17631c5bd245a9e') in 0.042430 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.008668 seconds.
-  path: Assets/SkySeries Freebie/Hdri setup.txt
-  artifactKey: Guid(add36ebe5ee5af347a876cdf41d00709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/Hdri setup.txt using Guid(add36ebe5ee5af347a876cdf41d00709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e4eaf521b6dc502b6f881fabb9d04d3') in 0.009843 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.014584 seconds.
-  path: Assets/SkySeries Freebie/ExampleScenes/SceneObjects/Full.mat
-  artifactKey: Guid(1b27a20a436b4c64b882a6f739bf91de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/ExampleScenes/SceneObjects/Full.mat using Guid(1b27a20a436b4c64b882a6f739bf91de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d0dc420e00494ebfc793b3dde6f8ed2') in 0.022291 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.008077 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
-  artifactKey: Guid(1e3b057af24249748ff873be7fafee47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader using Guid(1e3b057af24249748ff873be7fafee47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8cafdaff4de9f57bfdebcaf3c71222d') in 0.008222 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.006205 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/Materials/UnearthlyRed4k.mat
-  artifactKey: Guid(4bed068fbeb8b3744939217d0d1ce8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/Materials/UnearthlyRed4k.mat using Guid(4bed068fbeb8b3744939217d0d1ce8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0169f2c8f4beb760285472fc7884230') in 0.119582 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.006899 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/Materials/PlanetaryEarth4k.mat
-  artifactKey: Guid(f36bbe924daa1e54388e5cd68bff8127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/Materials/PlanetaryEarth4k.mat using Guid(f36bbe924daa1e54388e5cd68bff8127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1912f27db64308b0cbf9c1c11037cf29') in 0.124634 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.013195 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
-  artifactKey: Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader using Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aca55ad6487aea99b0fecc0a181e403') in 0.008363 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.008294 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/Materials/MegaSun4k.mat
-  artifactKey: Guid(12bde6b2772911841a21576d43f72e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/Materials/MegaSun4k.mat using Guid(12bde6b2772911841a21576d43f72e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8869d485e0bd42d5ca4b7b9c27a1fcce') in 0.110757 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.006034 seconds.
-  path: Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
-  artifactKey: Guid(d82c1b31c7e74239bff1220585707d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt using Guid(d82c1b31c7e74239bff1220585707d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b95b4c2a9b67a1b3b08a79aab403f964') in 0.009593 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.006537 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
-  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd092630e8cbd75d18cb74c245c931be9') in 0.085333 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.008011 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Silver/M1911 Handgun_Silver.prefab
-  artifactKey: Guid(5c59210965ffbcc4093fe99a29edb777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Silver/M1911 Handgun_Silver.prefab using Guid(5c59210965ffbcc4093fe99a29edb777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79df38fc8c8d25f2a4b8a4dd5c35d677') in 0.032408 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.005145 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/Materials
-  artifactKey: Guid(1dffaf5c9df4472408d9ba2fe2542512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/Materials using Guid(1dffaf5c9df4472408d9ba2fe2542512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f9922e2242cc68e388637ebfda7e7f') in 0.007796 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.005961 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
-  artifactKey: Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ad4ca8d94c7f6f909fa6e764ea6ddf9') in 0.008112 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.005879 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF.shader
-  artifactKey: Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF.shader using Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7567642c243dc9fb3ba9e1baa24c112') in 0.007798 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.013807 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/URP
-  artifactKey: Guid(dd4745af94f64394588e796dce472f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/URP using Guid(dd4745af94f64394588e796dce472f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '520dc6de85ee0bf71c80fbe6321504ac') in 0.008499 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.005665 seconds.
-  path: Assets/SkySeries Freebie/ExampleScenes/HighFantasy.unity
-  artifactKey: Guid(c5c5155be27cc3a4fbea5063433ca717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/ExampleScenes/HighFantasy.unity using Guid(c5c5155be27cc3a4fbea5063433ca717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a347d0edf5154427dc667209f68fc564') in 0.008737 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.015305 seconds.
-  path: Assets/SkySeries Freebie/ExampleScenes/PlanetaryFreebie.unity
-  artifactKey: Guid(b803de4d65984fd4b83f3b24d963118f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/ExampleScenes/PlanetaryFreebie.unity using Guid(b803de4d65984fd4b83f3b24d963118f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6345b032b57f9e456880b957eed457ae') in 0.008950 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.010942 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
-  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b57c71681c28ad1c1f6290039a0f1cc9') in 0.008919 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.023805 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/URP/ModernGuns_Handgun_v1.2_URP.unitypackage
-  artifactKey: Guid(21037762408ec1942ae9b93b6b1413e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/URP/ModernGuns_Handgun_v1.2_URP.unitypackage using Guid(21037762408ec1942ae9b93b6b1413e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f1a416e7963b74895d53a0a958d380') in 0.009778 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.005889 seconds.
-  path: Assets/SkySeries Freebie/ExampleScenes/SceneObjects/6_10.mat
-  artifactKey: Guid(abcc3c67b7d0a794f8bb91be4e85abdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/ExampleScenes/SceneObjects/6_10.mat using Guid(abcc3c67b7d0a794f8bb91be4e85abdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac88dc1c7601752f8b0d4e059ca802a0') in 0.015476 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.008480 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
-  artifactKey: Guid(128e987d567d4e2c824d754223b3f3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader using Guid(128e987d567d4e2c824d754223b3f3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e769562f990412c2f440aec991e70abc') in 0.008158 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.006090 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
-  artifactKey: Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader using Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d090dd1fbec8f29ff95db6006eecd6f') in 0.008060 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.013556 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/_Demo Assets
-  artifactKey: Guid(f02bd5845de96884b8897a53e6dd8463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/_Demo Assets using Guid(f02bd5845de96884b8897a53e6dd8463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7b575356446bc95c096a548b870329') in 0.007775 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.031887 seconds.
-  path: Assets/TextMesh Pro/Sprites/EmojiOne.json
-  artifactKey: Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Sprites/EmojiOne.json using Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '036dbd30c7d82b31d4c2f8acde9227e5') in 0.016321 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.014234 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials
-  artifactKey: Guid(731f1baa9d144a9897cb1d341c2092b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials using Guid(731f1baa9d144a9897cb1d341c2092b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a5343dd66316b9eb35bafbffda078a') in 0.009164 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.014843 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/Materials
-  artifactKey: Guid(ac2ea0bdb3af14d4ab47b7b50dd0b4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/Materials using Guid(ac2ea0bdb3af14d4ab47b7b50dd0b4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be1ba5eb494e435e139dc4ae14fe4e6b') in 0.003751 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.059997 seconds.
-  path: Assets/SkySeries Freebie/ExampleScenes/SkyhighFreebieDemo.unity
-  artifactKey: Guid(475ff5ddb2faf0f41b3cc2073532de8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/ExampleScenes/SkyhighFreebieDemo.unity using Guid(475ff5ddb2faf0f41b3cc2073532de8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9548e9fb56b7d42ffef8865dcf708521') in 0.008130 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.006822 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/Materials/HighFantasy4k.mat
-  artifactKey: Guid(5930f7c460d7c214ca03015488ff28d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/Materials/HighFantasy4k.mat using Guid(5930f7c460d7c214ca03015488ff28d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b2155a8a97e710856ca45fab99adebd') in 0.105254 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.152621 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Silver/M1911 Magazine_Silver.prefab
-  artifactKey: Guid(b5c250cf857e87546bfae19a751f3c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Silver/M1911 Magazine_Silver.prefab using Guid(b5c250cf857e87546bfae19a751f3c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a01179bdac411796113e8d4407f9bc2b') in 0.018983 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.005262 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/Animations
-  artifactKey: Guid(22c1561bdf2c6ca41a7ef3927b3a69f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/Animations using Guid(22c1561bdf2c6ca41a7ef3927b3a69f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a03cc79a60a125a8cc26a52dc75dbc00') in 0.008507 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.123689 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
-  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42332d2173f9a62dc7ec89edcf9988b') in 0.016716 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.026856 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Silver/M1911 Magazine_Silver_Full.prefab
-  artifactKey: Guid(383b1a391f98da5478a7dddc283414a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Silver/M1911 Magazine_Silver_Full.prefab using Guid(383b1a391f98da5478a7dddc283414a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc7176f87b3d48e00bab58774c119316') in 0.026448 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.018106 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
-  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7506c69260bf7c1cdf33a8f62db534a1') in 0.008886 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.003696 seconds.
-  path: Assets/SkySeries Freebie/ExampleScenes/SceneObjects
-  artifactKey: Guid(4f34c5940141eff4e82f4c8bfdf6e203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/ExampleScenes/SceneObjects using Guid(4f34c5940141eff4e82f4c8bfdf6e203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99e2fda519e0ea2fd8edc23610b5dae6') in 0.007362 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.006007 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Base Prefabs/M1911 Magazine Base.prefab
-  artifactKey: Guid(71d42f13891e48c4487496fd15802eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Base Prefabs/M1911 Magazine Base.prefab using Guid(71d42f13891e48c4487496fd15802eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf2490894fb15f8ce8ee6bbbd3e8030e') in 0.150622 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.069416 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/Materials/Cloudymorning4k.mat
-  artifactKey: Guid(4083950b49d63144aaeed96b63a6d079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/Materials/Cloudymorning4k.mat using Guid(4083950b49d63144aaeed96b63a6d079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3fc2f8ba4d1864303238f9b0d51fbc') in 0.110830 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.006867 seconds.
-  path: Assets/SkySeries Freebie/ExampleScenes/UnderTheSea.unity
-  artifactKey: Guid(36dce1c4ecf83f74392c8361f42e87e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/ExampleScenes/UnderTheSea.unity using Guid(36dce1c4ecf83f74392c8361f42e87e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '791ab2ae25fac50f3af0139149c0e86e') in 0.009560 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.016304 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/Materials/DayInTheClouds4k.mat
-  artifactKey: Guid(fab489639af286f4cb71c5ba08b067a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/Materials/DayInTheClouds4k.mat using Guid(fab489639af286f4cb71c5ba08b067a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8740c49c954fea482007668a173578eb') in 0.111399 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.003398 seconds.
-  path: Assets/TextMesh Pro/Documentation
-  artifactKey: Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Documentation using Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc497803c0650e980b81bcf651e18b86') in 0.008408 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.006387 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMPro.cginc
-  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9166bc1abaeb281fc6783cc3fe76c458') in 0.009470 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.016993 seconds.
-  path: Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
-  artifactKey: Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt using Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35ecb2fa8dd83b4749a13d0b14c984c2') in 0.009585 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.004062 seconds.
-  path: Assets/TextMesh Pro/Resources/Style Sheets
-  artifactKey: Guid(4aecb92fff08436c8303b10eab8da368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Style Sheets using Guid(4aecb92fff08436c8303b10eab8da368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe342ddaeddc525a77e6f203ceeefc6a') in 0.008271 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.046712 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/Materials/FluffballDay4k.mat
-  artifactKey: Guid(14c97decac7006342af325db95a7d5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/Materials/FluffballDay4k.mat using Guid(14c97decac7006342af325db95a7d5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608eb4b47073546e366310db3665c6fd') in 0.111900 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.034721 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
-  artifactKey: Guid(bc1ede39bf3643ee8e493720e4259791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader using Guid(bc1ede39bf3643ee8e493720e4259791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c57d433d24619fb5da4045a41f74e3') in 0.008838 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.015344 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
-  artifactKey: Guid(c334973cef89a9840b0b0c507e0377ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc using Guid(c334973cef89a9840b0b0c507e0377ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ec19a9bb5cbf8bdad0e1633e175a9e') in 0.009081 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.009310 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/Meshes
-  artifactKey: Guid(74b7e5c6d2f3cb147bd6ebf909cd71c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/Meshes using Guid(74b7e5c6d2f3cb147bd6ebf909cd71c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3b5d175e90d30621c3b8925f2a6783') in 0.009118 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.006541 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
-  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c03ef0685716eb49c849513d3fc62c') in 0.020868 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.007180 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
-  artifactKey: Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader using Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98268f32841d37a7690ec8fd38a25b7a') in 0.008944 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.006790 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/Materials/CloudedSunGlow4k.mat
-  artifactKey: Guid(d1b322460713a9e468a935a480b90aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/Materials/CloudedSunGlow4k.mat using Guid(d1b322460713a9e468a935a480b90aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ecb382ace53e51b9d728f89995dceb8') in 0.106107 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.006111 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Base Prefabs/Bullet_Casing.prefab
-  artifactKey: Guid(a737d62f4ff0b854a9d767507f039686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Base Prefabs/Bullet_Casing.prefab using Guid(a737d62f4ff0b854a9d767507f039686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2db4aaad13d53297af23907f8b397b') in 0.010647 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.006398 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/Materials/SunlessCirruscover4k.mat
-  artifactKey: Guid(bc845b5eb2d7f0143b2485b7a59e7c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/Materials/SunlessCirruscover4k.mat using Guid(bc845b5eb2d7f0143b2485b7a59e7c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2b9feed90c4aca5527b9123c31d7c57') in 0.114806 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.168170 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/Animations/M1911 Handgun Controller.controller
-  artifactKey: Guid(03d1fe4e93c9d4445b3a611df2ee5713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/Animations/M1911 Handgun Controller.controller using Guid(03d1fe4e93c9d4445b3a611df2ee5713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e08f242b0d3377358676b92931a4a1b2') in 0.013443 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.007229 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Base Prefabs/M1911 Handgun Base.prefab
-  artifactKey: Guid(a78a725941312494b930d664f3b315d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Base Prefabs/M1911 Handgun Base.prefab using Guid(a78a725941312494b930d664f3b315d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f0f2372211dafc347d521693c2014d') in 0.026367 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.008173 seconds.
-  path: Assets/SkySeries Freebie/ExampleScenes/DayInTheClouds.unity
-  artifactKey: Guid(2634e102100bcf64ca81587c175efa45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/ExampleScenes/DayInTheClouds.unity using Guid(2634e102100bcf64ca81587c175efa45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d0d803a038774cac10b95b56af7cdb') in 0.008667 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.004224 seconds.
-  path: Assets/Nokobot
-  artifactKey: Guid(91efdd3ce71e0304f839b181424cec2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot using Guid(91efdd3ce71e0304f839b181424cec2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '419aa77e589d68670a4dcfc9bdccb15a') in 0.008747 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.006724 seconds.
-  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
-  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d39d3b365ae06f4a5d582e5614ba55e') in 0.033812 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.043325 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/Materials/SkyhighFluffycloudField4k.mat
-  artifactKey: Guid(bd501b65a55419745a0b3075e0b6d7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/Materials/SkyhighFluffycloudField4k.mat using Guid(bd501b65a55419745a0b3075e0b6d7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '068b72d549d33bf671b76c9a934a2a57') in 0.114149 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.003472 seconds.
-  path: Assets/TextMesh Pro/Sprites
-  artifactKey: Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Sprites using Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b27a52c99a9f8f9ac4f70e63a6bb6f32') in 0.008600 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.104190 seconds.
-  path: Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
-  artifactKey: Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf using Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d594f0f45c0070f56c2dd42a9bd84c') in 0.015935 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.005930 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Black/M1911 Handgun_Black.prefab
-  artifactKey: Guid(87e308cb23eea97419b3c2623d8bb3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Black/M1911 Handgun_Black.prefab using Guid(87e308cb23eea97419b3c2623d8bb3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d172809d12f300aa2b362e2e8486f59') in 0.039000 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.004787 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Black
-  artifactKey: Guid(3c06fb9777b9bf742984737b207f4792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Black using Guid(3c06fb9777b9bf742984737b207f4792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40166334867db6d2f5ee0a4eeac11ddf') in 0.008857 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.019544 seconds.
-  path: Assets/TextMesh Pro/Resources
-  artifactKey: Guid(243e06394e614e5d99fab26083b707fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources using Guid(243e06394e614e5d99fab26083b707fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73107d1020a62e3def86c468d2a05456') in 0.008613 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.029963 seconds.
-  path: Assets/SkySeries Freebie/ExampleScenes/DarkStorm.unity
-  artifactKey: Guid(952ead6250bb92747a18eeb7e40334cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/ExampleScenes/DarkStorm.unity using Guid(952ead6250bb92747a18eeb7e40334cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f2306a1a1da1e14f69bbea933db7d04') in 0.008251 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.006881 seconds.
-  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
-  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3bd036785823e2281556a384dd6489b') in 0.032072 seconds 
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a69cd30e4e8cf680d92203711abd3a1c') in 0.024382 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.025258 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\alfnd\ssu2nd\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\alfnd\ssu2nd\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.377 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3378ms)
+		BeginReloadAssembly (429ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (2509ms)
+			LoadAssemblies (401ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (855ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (110ms)
+			SetupLoadedEditorAssemblies (1060ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (280ms)
+				ProcessInitializeOnLoadAttributes (619ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (72ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (41ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3047 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (80.6 KB). Loaded Objects now: 3540.
+Memory consumption went from 110.1 MB to 110.0 MB.
+Total: 7.542900 ms (FindLiveObjects: 0.407200 ms CreateObjectMapping: 0.363700 ms MarkObjects: 6.617100 ms  DeleteObjects: 0.153100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 31.797606 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc172811d573b296104adb4d2728db37') in 0.017547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.912929 seconds.
+  path: Assets/SkySeries Freebie/6sidedCosmicCoolCloud.mat
+  artifactKey: Guid(f531e09e2ad2fb440b4eed7605863143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/6sidedCosmicCoolCloud.mat using Guid(f531e09e2ad2fb440b4eed7605863143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66de2c2900bab31853d4f7c8cccff8a8') in 0.296484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/SkySeries Freebie/UnderTheSea4k.mat
+  artifactKey: Guid(119ec07f1c7ed204db46bd8465fd5a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/UnderTheSea4k.mat using Guid(119ec07f1c7ed204db46bd8465fd5a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac45958876f67ac04f2b51ffa93968a') in 0.092333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/SkySeries Freebie/SunlessCirruscover.mat
+  artifactKey: Guid(4e154bf235e41704bbd6bbc6fd6c63f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/SunlessCirruscover.mat using Guid(4e154bf235e41704bbd6bbc6fd6c63f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1add63f2bc2dd81a3f74b5afa9d19d3') in 0.055503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/SkySeries Freebie/DayInTheClouds.mat
+  artifactKey: Guid(3e5399bd195de7649b874f58c1b9f8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/DayInTheClouds.mat using Guid(3e5399bd195de7649b874f58c1b9f8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7660f6fdc03148b1403eeee2fa27556') in 0.040417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/SkySeries Freebie/CoriolisNight4k.mat
+  artifactKey: Guid(d4454f71d85928744be7771e2143dab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/CoriolisNight4k.mat using Guid(d4454f71d85928744be7771e2143dab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f1922b75d452739b6d38c89ace6923f') in 0.056020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SkySeries Freebie/PlanetaryEarth.mat
+  artifactKey: Guid(16bc8a9d5451ca44d8f70575adbece3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/PlanetaryEarth.mat using Guid(16bc8a9d5451ca44d8f70575adbece3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bea286f0a95f9194d5ea5d51f537f69') in 0.051043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/SkySeries Freebie/CosmicCoolCloud_Eq.mat
+  artifactKey: Guid(369b9ebe3a62b904dbc19bd332b44086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/CosmicCoolCloud_Eq.mat using Guid(369b9ebe3a62b904dbc19bd332b44086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6480f5741e48eb7cc7c225127882be6') in 0.042012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009111 seconds.
+  path: Assets/SkySeries Freebie/CloudedSunGlow.mat
+  artifactKey: Guid(e391f00234292cc4f935308c11cf0e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/CloudedSunGlow.mat using Guid(e391f00234292cc4f935308c11cf0e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4077ec1e9c831cd14ff38fbad15a28ab') in 0.062662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SkySeries Freebie/CasualDay.mat
+  artifactKey: Guid(85cf0b004bc4a654b9e501efcce47902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/CasualDay.mat using Guid(85cf0b004bc4a654b9e501efcce47902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ffb5835cee89f6d8272b222503ada7') in 0.066548 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
