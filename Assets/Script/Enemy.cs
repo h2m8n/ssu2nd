@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public int maxHealth = 2; // 최대 HP
+    public int maxHealth = 1; // 최대 HP
     private int currentHealth; // 현재 HP
 
     private void Start()
@@ -40,5 +40,8 @@ public class Enemy : MonoBehaviour
     {
         // 사망 처리 로직을 구현하세요.
         Destroy(gameObject);
+        
+
+
     }
 }

@@ -350,6 +350,7 @@
 "Assets/Script/EnemySpawn.cs"
 "Assets/Script/Menu/MenuScript.cs"
 "Assets/Script/Player/Player.cs"
+"Assets/Script/SoundManager.cs"
 -langversion:9.0
 
 /deterministic

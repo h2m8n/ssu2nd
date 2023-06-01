@@ -6,13 +6,25 @@ using UnityEngine.SceneManagement;
 public class MenuScript : MonoBehaviour
 {
     public void PlayGame(){
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-       
+        SceneManager.LoadScene("SampleScene");
+       //SceneManager.GetActiveScene().buildIndex + 1
     }
+
     public void HowToPlay(){
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
-       
+        SceneManager.LoadScene("HowToPlay");
+       //SceneManager.GetActiveScene().buildIndex + 2
     }
+
+        public void X(){
+        SceneManager.LoadScene("MenuScene");
+    }
+
+         public void Retry(){
+        SceneManager.LoadScene("SampleScene");
+    }
+
+
+
     public void ExitGame() {
         Application.Quit();
     }
