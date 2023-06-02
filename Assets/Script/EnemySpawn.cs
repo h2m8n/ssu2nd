@@ -65,7 +65,7 @@ public class EnemySpawn : MonoBehaviour
     private GameObject SpawnEnemy()
     {
         _spawnIntervalZ += mSpawnIntervalZ;
-        return Instantiate(mEnemy, CalcRandomEnemyPos(), Quaternion.Euler(0, 180, 0));
+        return Instantiate(mEnemy, CalcRandomEnemyPos(), Quaternion.Euler(180, 0, 0));
     }
 
     private Vector3 CalcRandomEnemyPos()
